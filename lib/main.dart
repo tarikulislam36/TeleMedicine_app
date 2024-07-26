@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'web_view_page.dart';
+import 'call_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => WebViewPage(
+        builder: (context) => CallPage(
           url: url,
           title: title,
           roomId: _roomNameController.text.trim(),

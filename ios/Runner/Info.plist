@@ -16,6 +16,10 @@
 	<string>tele</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to the camera for video calling.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need access to the microphone for audio calling.</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
